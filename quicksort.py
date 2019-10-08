@@ -1,3 +1,8 @@
+'''
+快速排序
+大O运行时间：O(n log n)
+快速排序的速度取决于选择的基准值
+'''
 def quicksort(array):
     if len(array) < 2:
         return array
